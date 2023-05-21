@@ -34,7 +34,7 @@ if __name__ == '__main__':
         destination_dir = sys.argv[2]
 
     model = models.Unet(4)
-    model.load_state_dict(torch.load('trained/model13.pth'))
+    model.load_state_dict(torch.load('trained/model2.pth'))
     model.eval()
 
     mini_size = 32

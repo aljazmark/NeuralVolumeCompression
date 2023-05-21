@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
     # Load the model and set it to eval mode
     model = models.Unet(4)
-    model.load_state_dict(torch.load('trained/model13.pth'))
+    model.load_state_dict(torch.load('trained/model2.pth'))
     model.eval()
 
     mini_block = 32
